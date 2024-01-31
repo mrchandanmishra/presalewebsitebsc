@@ -43,11 +43,11 @@
                     walletconnect: {
                         package: x.a,
                         options: {
-                            networkUrl: "https://bsc-dataseed.binance.org",
+                            networkUrl: "https://sepolia-rpc.scroll.io",
                             rpc: {
-                                56: "https://bsc-dataseed.binance.org"
+                                534351: "https://sepolia-rpc.scroll.io"
                             },
-                            chainId: 56
+                            chainId: 534351
                         }
                     }
                 },
@@ -538,7 +538,7 @@
                     var e, t = Object(a.useContext)(w),
                         n = t.account,
                         i = function(e) {
-                            return A("0x34731aaEf796dBA871c7a053569049F7DfA49C12", z, e)
+                            return A("0x5DC85b96ff2bf7c2980971cCc232F5F468923753", z, e)
                         }(t.signer),
                         r = Object(d.a)("(max-width:700px)"),
                         o = Object(a.useState)(""),
