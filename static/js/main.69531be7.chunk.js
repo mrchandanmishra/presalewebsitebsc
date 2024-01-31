@@ -1284,7 +1284,7 @@
                                         case 0:
                                             return e.next = 2, ce.eth.getChainId();
                                         case 2:
-                                            56 !== e.sent && i(!0);
+                                            534351 !== e.sent && i(!0);
                                         case 4:
                                         case "end":
                                             return e.stop()
