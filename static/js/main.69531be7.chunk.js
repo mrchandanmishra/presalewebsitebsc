@@ -1192,7 +1192,7 @@
                                             return e.prev = 0, e.next = 3, window.ethereum.request({
                                                 method: "wallet_switchEthereumChain",
                                                 params: [{
-                                                    chainId: "0x61"
+                                                    chainId: "0x8274F"
                                                 }]
                                             });
                                         case 3:
